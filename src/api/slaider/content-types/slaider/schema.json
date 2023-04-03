@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "slaiders",
+  "info": {
+    "singularName": "slaider",
+    "pluralName": "slaiders",
+    "displayName": "slaider"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "slaiderprice": {
+      "type": "string",
+      "required": true
+    },
+    "slaidername": {
+      "type": "string",
+      "required": true
+    },
+    "slaiderimg": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true,
+      "required": true
+    }
+  }
+}

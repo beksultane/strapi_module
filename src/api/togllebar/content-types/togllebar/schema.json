@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "togllebars",
+  "info": {
+    "singularName": "togllebar",
+    "pluralName": "togllebars",
+    "displayName": "togllebar"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "toglleheader": {
+      "type": "string",
+      "required": true
+    },
+    "toglletext": {
+      "type": "text",
+      "required": true
+    }
+  }
+}
